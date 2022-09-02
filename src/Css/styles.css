@@ -1,0 +1,44 @@
+/* Colors
+    01d - clear sky - #EBA681 Background #FFC9A9
+
+    02d - few clouds - #beeede Background #A2D9E0
+    03d - scattered clouds - #93E2C8
+    04d - broken clouds - #0ca678
+
+    09d - shower rain: #A2D9E2 Background #FFAFBC
+    10d - rain - #c7e8ee
+    11d - thunderstorm - #5f3dc4
+
+    13d - snow - #FFAFBC Background #ebebeb
+    50d - mist - #dee2e6
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    color: #555;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    background-color: blue;
+    height: 70vh;
+    width: 120vh;
+    margin: 0 auto;
+    display: grid;
+}
