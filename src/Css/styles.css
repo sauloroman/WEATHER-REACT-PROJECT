@@ -41,6 +41,7 @@ h2 {
 }
 
 .container {
+    height: 100vh;
     width: 120rem;
     max-width: 95%;
     margin: 0 auto;

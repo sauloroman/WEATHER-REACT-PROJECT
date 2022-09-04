@@ -29,6 +29,7 @@
     }
 
     .container {
+        height: auto;
         max-width: 95%;
         margin: 5rem auto;
     }
