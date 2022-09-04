@@ -8,11 +8,10 @@ const Weather = ({ location }) => {
 
     return (
         <>
-            <button 
-                onClick={ () => setCelsius(!celsius)}
-                className={`weather-btn bg-${ location.weather }`}>{ celsius ? 'Fahrenheit' : 'Centígrados'}</button>
-
             <header className='weather-info__header'>
+                <button 
+                    onClick={ () => setCelsius(!celsius)}
+                    className={`weather-btn bg-${ location.weather }`}>{ celsius ? 'Fahrenheit' : 'Centígrados'}</button>
                 <h1>the.weather</h1>
             </header>
 

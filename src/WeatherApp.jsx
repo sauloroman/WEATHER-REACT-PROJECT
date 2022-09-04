@@ -6,7 +6,7 @@ const WeatherApp = () => {
     const { location, onNewLocation, isLoading, error } = useUserLocation();
 
     return (
-        <>
+        <div className="container center-flex">
            {
                 !isLoading ? 
                 (
@@ -33,7 +33,7 @@ const WeatherApp = () => {
                     <Spinner />
                 )
            }
-        </>
+        </div>
     )
 }
 
