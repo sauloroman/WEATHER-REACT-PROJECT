@@ -29,8 +29,10 @@ const WeatherApp = () => {
                          </div>
                     )
                 ) : 
-                (
-                    <Spinner />
+                (   
+                    <div className="spinner-container">
+                        <Spinner />
+                    </div>
                 )
            }
         </div>

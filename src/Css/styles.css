@@ -44,7 +44,6 @@ h2 {
     width: 120rem;
     max-width: 95%;
     margin: 0 auto;
-    height: 100vh;
 }
 
 .weather {
@@ -198,6 +197,10 @@ h2 {
     border: none;
 }
 
+.spinner-container {
+    height: 100vh;
+}
+
 /* WEATHER COLORS */
 
 .background-settings {
@@ -223,6 +226,8 @@ h2 {
 }
 
 .body-Clear {
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -246,6 +251,8 @@ h2 {
 }
 
 .body-Clouds {
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #F3904F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -268,6 +275,8 @@ h2 {
 }
 
 .body-Rain {
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -289,6 +298,8 @@ h2 {
 
 .body-Mist,
 .body-Fog {
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #3C3B3F;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -311,6 +322,8 @@ h2 {
 }
 
 .body-Haze {
+    background-repeat: no-repeat;
+    background-size: cover;
     background: #141E30;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -333,6 +346,8 @@ h2 {
 }
 
 .body-Snow {
+    background-repeat: no-repeat;
+    background-size: cover; 
     background: #654ea3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

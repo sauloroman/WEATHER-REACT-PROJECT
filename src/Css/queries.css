@@ -8,6 +8,14 @@
         flex-direction: column;
     }
 
+    .Clouds {
+        background-position: center;
+    }
+
+    .Clear {
+        background-repeat: no-repeat;
+    }
+
 }
 
 @media ( max-width: 764px ) {
@@ -22,12 +30,12 @@
 
     .container {
         max-width: 95%;
+        margin: 5rem auto;
     }
 
     .weather {
         height: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
     }
 
     .weather-control {
@@ -76,6 +84,10 @@
 
     .weather-form button {
         font-size: 1.8rem;
+    }
+
+    .error-info {
+        padding: 5rem;
     }
 
 }
